@@ -1,6 +1,6 @@
 #!/usr/bin/env make
 
-CC = gcc
+CC ?= gcc
 
 CFLAGS += -Wall -Wextra
 
